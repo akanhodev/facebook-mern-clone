@@ -1,0 +1,55 @@
+.salon{
+    display: flex;
+    margin-top: 20px;
+    width: 100%;
+    /* border: 1px solid #2e81f4; */
+    height: 80px;
+    background-color: #eff2f5 ;
+    border-radius: 15px;
+    box-shadow: 0px 5px 17px -7px rgba(0 , 0, 0, 0.75);
+    align-items: center;
+
+}
+
+.story__avatar1 {
+    margin-left:20px ;
+    /* margin-top: 20px; */
+    align-items: center;
+    justify-content: center;
+    font-size: large !important;
+    
+}
+.video__info{
+    display: flex;
+    border: 1px solid #2e81f4;
+    margin: 20px;
+    border-radius:20px ;
+    align-items: center;
+    justify-content: center;
+
+}
+.video__info >h3{
+    margin-right: 5px;
+    color: #2e81f4;
+}
+
+.video__info:hover{
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+.story__avatar1:hover{
+    color: transparent;
+    cursor: pointer;
+    font-size: large;
+    transition:transform 200ms ease-in ;
+    transform: scale(2);
+    
+}
+.story__avatar1{
+    transform: scale(1.5);
+    margin-right: 30px;
+}
+
+
+

@@ -1,6 +1,9 @@
 import React , {useState} from 'react'
 import './MessageSender.css'
 import {IconButton , Avatar} from '@material-ui/core'
+import VideocamIcon from '@material-ui/icons/Videocam';
+import PhotoLibraryIcon from '@material-ui/icons/PhotoLibrary';
+import InsertEmoticonIcon from '@material-ui/icons/InsertEmoticon';
 
 function MessageSender() {
 
@@ -33,6 +36,25 @@ function MessageSender() {
                     <input type="file" className="messageSender__fileSelected" placeholder="Quoi de neuf Dine" onChange={handleChange} />
                     <button onClick={handleSubmit} type="submit"> Hidden Submit </button>
                 </form>
+
+            </div>
+            
+            <div className="messageSender__bottom">
+                <div className="messageSender__option">
+                    <VideocamIcon style={{color: 'red'}} fontSize="large"/>
+                    <h3>Vidéo en Direct</h3>
+                </div>
+
+                <div className="messageSender__option">
+                    <PhotoLibraryIcon   style={{color: 'green'}} fontSize="large"/>
+                    <h3>Photo/Vidéo</h3>
+                </div>
+
+                <div className="messageSender__option">
+                    <InsertEmoticonIcon   style={{color: 'orange'}} fontSize="large" />
+                    <h3>Humeur / Activité</h3>
+
+                </div>
 
             </div>
             
