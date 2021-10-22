@@ -10,6 +10,7 @@
     margin-right: 10px;
     cursor: pointer;
     transition: transform 0.2s ease-in;
+    /* margin-top: 20px; */
 }
 .story:hover{
     transform: scale(1.07);
